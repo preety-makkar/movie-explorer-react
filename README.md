@@ -1,16 +1,125 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie discovery application built with **React** and **Vite** that allows users to search for TV shows and movies using the **TVMaze API** and save favorites using **Local Storage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search TV shows and movies
+- 🌐 Real-time data fetching using the TVMaze API
+- ❤️ Add and remove favorites
+- 💾 Favorites persist using Local Storage
+- ⚛️ Built with React Hooks
+- 📱 Fully responsive design
+- ⚡ Fast and modern user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- TVMaze API
+- Local Storage
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home.png)
+
+### Movies Page
+
+![Movies Page](./screenshots/movies.png)
+
+### Search Results
+
+![Search Results](./screenshots/search-results.png)
+
+### Favorites
+
+![Favorites](./screenshots/favorites.png)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/preety-makkar/movie-explorer-react.git
+```
+
+Move into the project directory:
+
+```bash
+cd movie-explorer-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+movie-explorer-react/
+│
+├── public/
+├── src/
+├── screenshots/
+│   ├── home.png
+│   ├── movies.png
+│   ├── search-results.png
+│   └── favorites.png
+│
+├── README.md
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me gain practical experience with:
+
+- React Components
+- React Hooks (useState, useEffect)
+- API Integration
+- State Management
+- Local Storage
+- Responsive Web Design
+- Modern Frontend Development Workflow
+
+---
+
+## 🔮 Future Improvements
+
+- Genre-based filtering
+- Pagination support
+- Detailed show information pages
+- Watchlist functionality
+- Dark Mode
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Preety Makkar**
